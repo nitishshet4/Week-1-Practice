@@ -1,14 +1,14 @@
+1. Write a pesudocode to check given number is +ve or -ve
+ 
+ 
 begin
-numeric num1,num2,add,sub,mul,div
-print("enter the num1 and num2")
-input num1
-input num2
-add=num1+num2
-sub=num1-num2
-mul=num1*num2
-div=num1/num2
-print("addition is :",add)
-print("subtraction is :",sub)
-print("multiplication is:", mul)
-print("division is:, div)
-end
+      Numeric num
+      print("Enter number to check it is +ve or -ve");
+      input num
+      if(num>0) {
+             print(num," is +ve number'")
+ 
+        }
+      else{
+            print(num," is -ve number")
+        }
