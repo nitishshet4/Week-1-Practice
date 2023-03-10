@@ -1,0 +1,14 @@
+1. Write a pesudocode to check given number is +ve or -ve
+ 
+ 
+begin
+      Numeric num
+      print("Enter number to check it is +ve or -ve");
+      input num
+      if(num>0) {
+             print(num," is +ve number'")
+ 
+        }
+      else{
+            print(num," is -ve number")
+        }
