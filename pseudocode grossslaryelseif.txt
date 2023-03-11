@@ -1,0 +1,26 @@
+begin
+ numeric basic,gross,hra,da;
+ print("Enter the basic salary");
+ input basic
+ if(basic<=10000)
+ {
+   hra=0.67*basic
+   da=0.78*basic
+   gross=basic+hra+da
+   print("The gross salary is :",gross);
+ }
+ else if(basic<=20000)
+ {
+   hra=0.69*basic
+   da=0.79*basic
+   gross=basic+hra+da
+   print("The gross salary is :",gross);
+ }
+ else
+ {
+   hra=0.75*basic
+   da=0.85*basic
+   gross=basic+hra+da
+   print("The gross salary is :",gross);
+ } 
+end

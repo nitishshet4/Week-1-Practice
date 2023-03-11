@@ -1,0 +1,11 @@
+nes (9 sloc)  298 Bytes
+
+begin
+ numeric salary,bill1,bill2,bill3,total,percent
+ print("Enter the salary,bill1,bill2,bill3")
+ input salary,bill1,bill2,bill3
+ total=bill1+bill2+bill3
+ percent=(total*100)/salary
+ print("Total shopping amount is:",total)
+ print("Percentage of amount spent on shopping :",percent)
+end

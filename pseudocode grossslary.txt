@@ -1,0 +1,9 @@
+Begin
+	number basicsalary,hra,da,GrossSalary
+	print("Enter Basic Salary")
+	input basicsalary
+	hra=(87*BasicSalary)/100
+	Da=(89*BasicSalary)/100
+	GrossSalary=Basicsalary+hra+Da
+	print("GrossSalary is ",GrossSalary)
+End
