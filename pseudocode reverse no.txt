@@ -1,0 +1,12 @@
+begin
+numeric num,rev=0,rem
+print("enter the number")
+input num
+if (num!=0)
+{
+rem=num%10;
+rev=rev*10+rem;
+num=num/10;
+}
+print("reveresed no:",rev)
+end
