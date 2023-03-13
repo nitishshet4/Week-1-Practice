@@ -1,0 +1,20 @@
+Begin 
+Numeric num, fact,count=1;  
+  
+print("Enter a number")  
+Input number  
+while(fact<= num)  
+{  
+if(num % fact==0)  
+{  
+count=count+1
+} 
+fact=fact+1
+}
+if(count>1){
+print("not prime")
+}
+else{
+print("prime")
+}
+End 
