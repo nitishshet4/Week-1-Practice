@@ -1,0 +1,13 @@
+//WAP to sum the number upto n
+
+begin
+    numeric num=1, n, sum=0
+    print("enter the value for n")
+    input n
+    do{
+      sum=sum+num
+      num++
+      }
+       while(num<=n);
+end
+     

@@ -1,0 +1,24 @@
+
+//WAP to sum of even numbers and odd numbers
+
+
+begin
+    numeric num=1,n, sum1=0, sum2=0
+    print(enter the n value")
+    input n
+    do{
+       if(num%2==0){
+         sum1=sum1+num
+         }
+       else{
+         sum2=sum2+num
+         }
+          
+        num++
+       }
+       
+      while(num<=n);
+
+      print("the even number sum is:", sum1)   
+      print("the odd number sum is:", sum2)
+end

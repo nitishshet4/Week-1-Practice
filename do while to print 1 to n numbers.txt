@@ -1,0 +1,13 @@
+
+//to print 1 to n numbers
+
+begin
+    numeric num=1,n
+    print("enter the value of n")
+    input n
+    do{
+      print(num)
+      num++
+      }
+      while(num<=n
+end

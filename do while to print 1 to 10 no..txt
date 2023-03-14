@@ -1,0 +1,10 @@
+//using do while to print 1 to 10 no.
+
+begin
+    numeric num=1
+    do{
+      print(num)
+      num++
+      }
+      while(num<=10)
+end

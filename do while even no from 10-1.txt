@@ -1,0 +1,10 @@
+//print numbers from 10 to 1
+
+begin
+    numeric num=10
+    do{
+      print(num)
+      num--
+     }
+     while(num>=1 && num<=10);
+end
