@@ -1,0 +1,9 @@
+WAP to print 1-10 times
+
+begin
+numeric num=1
+while num<=10{
+print (num)
+num++
+}
+end
